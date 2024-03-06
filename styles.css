@@ -1,0 +1,49 @@
+/* styles.css */
+:root {
+    --primary-green: #00cc66; /* Green color for buttons and links */
+    --dark-green: #006633; /* Darker shade for hover effects */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: var(--dark-green);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: var(--primary-green);
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--dark-green);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
